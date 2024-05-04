@@ -1,0 +1,17 @@
+{
+    "name": "LaserLift Firmware",
+    "version": "latest",
+    "new_install_prompt_erase": false,
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "improv": false,
+            "parts": [
+                {
+                    "path": "firmware/latest.bin",
+                    "offset": "0x0"
+                }
+            ]
+        }
+    ]
+}

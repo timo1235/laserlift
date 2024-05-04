@@ -1,0 +1,25 @@
+{
+  "name": "laserlift",
+  "description": "This project contains the software for my LaserLift project",
+  "authors": [
+    {
+      "name": "Timo Altholtmann",
+      "email": "blog@altholtmann.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timo1235/laserlift"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "scripts": {
+    "dev": "http-server docs"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
